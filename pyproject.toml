@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "customer_support_intelligence_platform"
+version = "0.0.1"
+description = "Customer Support Intelligence Platform is an end-to-end NLP-based system that automatically analyzes customer support messages"
+authors = [
+  { name = "Amit Kumar" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.11.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["customer_support_intelligence_platform"]
+include = ["pyproject.toml", "customer_support_intelligence_platform/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["customer_support_intelligence_platform"]
+force-sort-within-sections = true
+

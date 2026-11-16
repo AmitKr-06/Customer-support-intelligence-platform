@@ -1,0 +1,40 @@
+# Core data and visualization
+pandas
+numpy
+pyarrow
+matplotlib
+seaborn
+
+# Classical ML and NLP
+scikit-learn
+nltk
+spacy
+datasets
+
+# Experiment tracking and data versioning
+mlflow
+dvc
+
+# Notebook support
+jupyter
+ipykernel
+tqdm
+pyyaml
+python-dotenv
+
+# Deep learning and transformers
+# torch  -> install separately with the CUDA build
+transformers
+accelerate
+evaluate
+sentence-transformers
+
+# API, database, testing (Week 6)
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+psycopg2-binary
+httpx
+pytest
+joblib
